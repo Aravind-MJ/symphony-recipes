@@ -1,0 +1,14 @@
+{
+    "recipes": {
+        "pit-solutions/fhir-sdk-bundle": [
+            "1.0"
+        ]
+    },
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "https://github.com/Aravind-MJ/symphony-recipes",
+        "origin_template": "pit-solutions.fhir-sdk-bundle:1.0@github.com/Aravind-MJ/symphony-recipes:main",
+        "recipe_template": "https://api.github.com/repos/Aravind-MJ/symphony-recipes/contents/pit-solutions.fhir-sdk-bundle.1.0.json"
+    }
+}
