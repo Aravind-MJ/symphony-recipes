@@ -8,12 +8,10 @@
         "config/": "%CONFIG_DIR%"
     },
     "env": {
-        "#1": "###> pit-solutions/fhir-sdk-bundle ###",
-        "#2": "HEALTHCARE_API_PROJECT_ID=123456",
-        "#3": "HEALTHCARE_API_CLOUD_REGION=us-central1",
-        "#4": "HEALTHCARE_API_DATASET_ID=first-symphony-dataset",
-        "#5": "HEALTHCARE_API_FHIR_STORE_ID=first-symphony-fhir-store",
-        "#6": "HEALTHCARE_API_CREDENTIALS_PATH=../credentials.json",
-        "#7": "###< pit-solutions/fhir-sdk-bundle ###"
+        "#1": "HEALTHCARE_API_PROJECT_ID=123456",
+        "#2": "HEALTHCARE_API_CLOUD_REGION=us-central1",
+        "#3": "HEALTHCARE_API_DATASET_ID=first-symphony-dataset",
+        "#4": "HEALTHCARE_API_FHIR_STORE_ID=first-symphony-fhir-store",
+        "#5": "HEALTHCARE_API_CREDENTIALS_PATH=../credentials.json"
     }
 }
