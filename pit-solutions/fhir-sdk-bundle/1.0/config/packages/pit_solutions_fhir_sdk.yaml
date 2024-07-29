@@ -5,3 +5,4 @@ pit_solutions_fhir_sdk:
         data_set_id: '%env(HEALTHCARE_API_DATASET_ID)%'
         fhir_store_id: '%env(HEALTHCARE_API_FHIR_STORE_ID)%'
         credentials_path: '%env(HEALTHCARE_API_CREDENTIALS_PATH)%'
+        selected_version: '%env(HEALTHCARE_API_SELECTED_VERSION)%'
