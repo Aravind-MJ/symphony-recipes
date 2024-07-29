@@ -1,4 +1,9 @@
 {
+    "bundles": {
+        "PitSolutions\\FhirSdkBundle\\PitSolutionsFhirSdkBundle": [
+            "all"
+        ]
+    },
     "copy-from-recipe": {
         "config/": "%CONFIG_DIR%"
     }
