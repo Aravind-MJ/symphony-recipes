@@ -1,7 +1,7 @@
 pit_solutions_fhir_sdk:
     healthcare_api:
-        project_id: '%env(HEALTHCARE_API_PROJECT_ID)%'
-        cloud_region: '%env(HEALTHCARE_API_CLOUD_REGION)%'
-        data_set_id: '%env(HEALTHCARE_API_DATASET_ID)%'
-        fhir_store_id: '%env(HEALTHCARE_API_FHIR_STORE_ID)%'
-        credentials_path: '%env(HEALTHCARE_API_CREDENTIALS_PATH)%'
+        project_id: '%env(resolve:HEALTHCARE_API_PROJECT_ID)%'
+        cloud_region: '%env(resolve:HEALTHCARE_API_CLOUD_REGION)%'
+        data_set_id: '%env(resolve:HEALTHCARE_API_DATASET_ID)%'
+        fhir_store_id: '%env(resolve:HEALTHCARE_API_FHIR_STORE_ID)%'
+        credentials_path: '%env(resolve:HEALTHCARE_API_CREDENTIALS_PATH)%'
