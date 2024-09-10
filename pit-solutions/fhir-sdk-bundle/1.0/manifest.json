@@ -12,6 +12,6 @@
         "#2": "HEALTHCARE_API_CLOUD_REGION=us-central1",
         "#3": "HEALTHCARE_API_DATASET_ID=first-symphony-dataset",
         "#4": "HEALTHCARE_API_FHIR_STORE_ID=first-symphony-fhir-store",
-        "#5": "HEALTHCARE_API_CREDENTIALS_PATH=./FHIRCredentials.json"
+        "#5": "HEALTHCARE_API_CREDENTIALS_PATH=%kernel.project_dir%/FHIRCredentials.json"
     }
 }
